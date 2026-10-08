@@ -31,9 +31,9 @@
     "index.html": "b318bb527a0e42720f0e7503c906e8cec14756c6065af24012ab1670e0163f73",
     "styles.css": "1504d5d748f8a615af1bd2599c62590e7f1fd5f6adfc2c3fd6424ad48fc8d4b0",
     "script.js": "98ef7578c536c6b0b022121b082b99af09ca0068ac937999d0ad58a5367109ed",
-    "ai-comic.html": "2b4f4f7359170901b504c22e537af2fc8b2acbb6b5c21d9a244da17f0433676c",
-    "ai-comic.css": "ae95be99ab4d83da716ce2f358dbe6421753a9f0302c73c91f3c41ca8a684ed5",
-    "assets/ai-comic-manifest.json": "220f4eac40e5b9d2360b1ab782ea50c98f8fed26e15d553c82e95e65139e3345"
+    "ai-comic.html": "f2728dafc36fc3be361910981b4a0a372e694c143c1bca09db0ed740c53daff6",
+    "ai-comic.css": "3ec448bc0ca849b24d4ae29f6b87af2faa6dd2e5b9c95bbbcc31925fd19affe6",
+    "assets/ai-comic-manifest.json": "ad0a78cb110f6caf3f57d7d445d96205ff8947f83d2245e3f3bd3d4bcc308cd1"
   },
   "optimized_asset_bytes": 6771500,
   "motion_media": {
@@ -58,7 +58,7 @@
       "checked_local_references": [
         "assets/icons/favicon.svg",
         "ai-comic.css",
-        "index.html",
+        "index.html#work",
         "assets/images/ai-comic/sumin-yaojie-renjian-ep01-cover.jpg",
         "assets/images/ai-comic/sumin-yaojie-renjian-ep01-cover.jpg",
         "assets/videos/ai-comic/sumin-yaojie-renjian-ep01.mp4",
@@ -69,9 +69,9 @@
         "assets/images/ai-comic/sumi-monster-character-sheet.webp",
         "assets/images/ai-comic/sumi-young-lead-character-sheet.webp",
         "assets/images/ai-comic/sumi-father-character-sheet.webp",
-        "assets/images/ai-comic/sumi-episode-01-storyboard.webp",
-        "assets/images/ai-comic/sumi-episode-02-storyboard.webp",
-        "index.html"
+        "assets/images/ai-comic/sumi-episode-01-storyboard.jpg",
+        "assets/images/ai-comic/sumi-episode-02-storyboard.jpg",
+        "index.html#work"
       ],
       "missing_local_references": []
     },
@@ -137,7 +137,29 @@
       }
     ],
     "character_sheets": 5,
-    "storyboards": 2,
+    "storyboards": {
+      "count": 2,
+      "display_mode": "single-column / full natural aspect ratio / no cropping",
+      "files": [
+        {
+          "file": "assets/images/ai-comic/sumi-episode-01-storyboard.jpg",
+          "bytes": 723641,
+          "sha256": "074372362a22f4dc0539da05390b06000b2466aa3f3400c08c876581e24dc11a",
+          "dimensions": "2160x1360"
+        },
+        {
+          "file": "assets/images/ai-comic/sumi-episode-02-storyboard.jpg",
+          "bytes": 725432,
+          "sha256": "08c2709ce4bd812b9621c33d64fd7bce36a5be058a45d07f5520c94fff4f190e",
+          "dimensions": "2160x1360"
+        }
+      ],
+      "source": "direct user-supplied original JPEGs",
+      "browser_render_check": {
+        "status": "PASS",
+        "observed": "natural dimensions 2160x1360; full image aspect ratio rendered without object-fit cropping"
+      }
+    },
     "total_image_bytes": 1489604,
     "total_video_bytes": 100738995,
     "browser_render_check": {

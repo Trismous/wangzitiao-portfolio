@@ -59,20 +59,22 @@
       "sha256": "f69903673cf2262443897b52b0704bd650dee4fa6cda540ee364c4caf5ea1401"
     },
     {
-      "file": "assets/images/ai-comic/sumi-episode-01-storyboard.webp",
+      "file": "assets/images/ai-comic/sumi-episode-01-storyboard.jpg",
       "title": "第 01 集分镜参考",
-      "width": 1600,
-      "height": 1007,
-      "bytes": 215278,
-      "sha256": "55d218780fe99929c36291a9f0ec840a114c0f72c7c07597519af1b27d6a3d32"
+      "width": 2160,
+      "height": 1360,
+      "bytes": 723641,
+      "sha256": "074372362a22f4dc0539da05390b06000b2466aa3f3400c08c876581e24dc11a",
+      "source": "user-supplied original storyboard"
     },
     {
-      "file": "assets/images/ai-comic/sumi-episode-02-storyboard.webp",
+      "file": "assets/images/ai-comic/sumi-episode-02-storyboard.jpg",
       "title": "第 02 集分镜参考",
-      "width": 1600,
-      "height": 1007,
-      "bytes": 219022,
-      "sha256": "642120b11a43f64c8e088e7b51accbe267b98f74fb78ae95f85ba83d2dae4169"
+      "width": 2160,
+      "height": 1360,
+      "bytes": 725432,
+      "sha256": "08c2709ce4bd812b9621c33d64fd7bce36a5be058a45d07f5520c94fff4f190e",
+      "source": "user-supplied original storyboard"
     }
   ],
   "videos": [
@@ -97,6 +99,6 @@
       "encoding": "H.264 High / AAC LC / faststart"
     }
   ],
-  "total_image_bytes": 1489604,
+  "total_image_bytes": 2504377,
   "total_video_bytes": 100738995
 }
