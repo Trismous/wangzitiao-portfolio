@@ -1,0 +1,32 @@
+[
+  {
+    "file": "assets/videos/taiping-drum-ip.mp4",
+    "title": "兰州太平鼓 IP 动态影像",
+    "duration_seconds": 67.106,
+    "dimensions": "1280×724",
+    "bytes": 38169629,
+    "sha256": "f167a666586574a0e8f0aac05001dd343077632a3c999f07c6c828de8dceef48",
+    "poster": "assets/images/taiping-drum-ip-poster.jpg",
+    "encoding": "H.264 High / AAC LC / faststart"
+  },
+  {
+    "file": "assets/videos/plant-healing-ai-ad.mp4",
+    "title": "超能植愈系列 AI 动漫广告",
+    "duration_seconds": 63.181,
+    "dimensions": "1280×720",
+    "bytes": 20650094,
+    "sha256": "fd4addd2cb7abf1ea8669de99812b3a2aee0950e85dfc7be2136364286c58f00",
+    "poster": "assets/images/plant-healing-ai-ad-poster.jpg",
+    "encoding": "H.264 High / AAC LC / faststart"
+  },
+  {
+    "file": "assets/videos/tiffany-jewelry-concept.mp4",
+    "title": "Tiffany & Co. 灵感 AI 珠宝礼赠概念片",
+    "duration_seconds": 37.058,
+    "dimensions": "1274×720",
+    "bytes": 3105268,
+    "sha256": "9cc46dc26b8e8f8fadde03aef9e1ec12fbdea984c6023982c2d60138f549691f",
+    "poster": "assets/images/tiffany-jewelry-concept-poster.jpg",
+    "encoding": "H.264 High / AAC LC / faststart"
+  }
+]

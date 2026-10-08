@@ -1,0 +1,191 @@
+[
+  {
+    "file": "naais-cover.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 337282,
+    "sha256": "9ad517749b9c29a99f1b3b34191f44606ae7beefb95bbe1e83a19f2a726fb402"
+  },
+  {
+    "file": "naais-packaging.webp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 198356,
+    "sha256": "94f8c8a507adf35134edd59fb0660a48255a54878f7dbc79ec08e3252840546f"
+  },
+  {
+    "file": "naais-composition.webp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 193702,
+    "sha256": "c8d8a46b332c06c5c6b06b2d724cc3ac03f53adc860dd69827b6519b0d5f79d9"
+  },
+  {
+    "file": "naais-character.webp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 171280,
+    "sha256": "a5d0a466f0e12d81ea19bc9d157781785b7e59d6fa701f7ea1845d7bddbd2e30"
+  },
+  {
+    "file": "naais-poster.webp",
+    "width": 991,
+    "height": 1400,
+    "bytes": 264338,
+    "sha256": "5af6d7c77621c6964a98be8ea9be210b4a18c772042f3d9890cb30f4192f58c3"
+  },
+  {
+    "file": "naais-board.webp",
+    "width": 1061,
+    "height": 1500,
+    "bytes": 362136,
+    "sha256": "3cf116dfafd3f56b166cf5786adb404613c9cb59762ac264178921930a39f816"
+  },
+  {
+    "file": "taiping-cover.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 282232,
+    "sha256": "f35d865c502fbd4a4b4f308da0a842b82e2119e2f0315aa09fb6514f098ff41d"
+  },
+  {
+    "file": "taiping-poster.webp",
+    "width": 920,
+    "height": 1300,
+    "bytes": 340680,
+    "sha256": "f0e5a18b48c73b9355cc05674e7207c9f75c8f9e9b7dae247e2992fa4564bbf3"
+  },
+  {
+    "file": "taiping-character.webp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 186654,
+    "sha256": "5220db1ec7e4c4a4ab7b3fa6bf704862e73a07bbc01256c15a1a6010c4457209"
+  },
+  {
+    "file": "taiping-extension.webp",
+    "width": 920,
+    "height": 1300,
+    "bytes": 328542,
+    "sha256": "ad75e0d991e67b9c4eeafe65342ead3c8bf69e74cc29ad467620a5504572cee3"
+  },
+  {
+    "file": "lanzhou-cover.webp",
+    "width": 920,
+    "height": 1300,
+    "bytes": 275726,
+    "sha256": "19fc224b3601f48268e3ae329241598fdd08f04dba463f9fc6cef500202891ed"
+  },
+  {
+    "file": "lanzhou-foldout.webp",
+    "width": 1800,
+    "height": 1283,
+    "bytes": 411564,
+    "sha256": "7580c2dbf1b117d970e007bce12a99bd8374fde9e3645e1358602d6fb823797d"
+  },
+  {
+    "file": "lanzhou-poster.webp",
+    "width": 920,
+    "height": 1300,
+    "bytes": 287342,
+    "sha256": "85a1cd8cf40aca45dd1a0add868832ebf3dc578f3c53961769e3cecd93c4f010"
+  },
+  {
+    "file": "baita-cover.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 25716,
+    "sha256": "01408ec3949096981873915618836b78bb67e8ec68b2f236dac0a9fc8f535af0"
+  },
+  {
+    "file": "baita-pillow.webp",
+    "width": 1800,
+    "height": 1260,
+    "bytes": 24298,
+    "sha256": "5399c6a5fef17b64766423e23f00f4f72a622fb27dd417e9ab29536bfd755e98"
+  },
+  {
+    "file": "baita-keychain.webp",
+    "width": 1600,
+    "height": 1600,
+    "bytes": 74034,
+    "sha256": "e6318e6d48ac07867dae4169fa0d27b501146c0ab20966b324ec78a01782144f"
+  },
+  {
+    "file": "water-cover.webp",
+    "width": 1024,
+    "height": 604,
+    "bytes": 43928,
+    "sha256": "82e17aab1b4ee79ddb803fb07c920c59743045a5caedda0a52e7fad04e741874"
+  },
+  {
+    "file": "water-render.webp",
+    "width": 1025,
+    "height": 618,
+    "bytes": 74930,
+    "sha256": "05b7621a8d877da63cdc98a22f2f1351f94c178b39d6e35a7ca3ec2b2da57638"
+  },
+  {
+    "file": "water-board.webp",
+    "width": 1059,
+    "height": 1500,
+    "bytes": 117864,
+    "sha256": "0fdbb2bdf66bf3b509d04d5817c63c3e7014ca7d6e147b095c570c1cd04db0f6"
+  },
+  {
+    "file": "water-line.webp",
+    "width": 1600,
+    "height": 1067,
+    "bytes": 18930,
+    "sha256": "497d28d122e201ff18d442d530bec76b2fcf931f0d5fce493954d6fbdfb8bec2"
+  },
+  {
+    "file": "tujia-cover.webp",
+    "width": 990,
+    "height": 1400,
+    "bytes": 323694,
+    "sha256": "649e345f89b3b0f518f8bc39115b7fcf9f6de7430f639e6b04c0ad70ff83b2fd"
+  },
+  {
+    "file": "infographic-cover.webp",
+    "width": 1000,
+    "height": 1400,
+    "bytes": 333066,
+    "sha256": "a11a79a4d1b7af71d0ad786c947e21a578d5e46f6107b1cd543842b91cc1535c"
+  },
+  {
+    "file": "wang-zitao-portrait.webp",
+    "width": 1200,
+    "height": 1450,
+    "bytes": 90330,
+    "sha256": "ef9f6d0146cd4a62f4a14b8114bac4f9168b94d3d6555ecbd8a31dda886e513c"
+  },
+  {
+    "file": "social-cover.jpg",
+    "width": 1200,
+    "height": 630,
+    "bytes": 251831,
+    "sha256": "d450190dd8c627cc7cbb06157db0839a17c65e0fd01a98100c1005bb28f9cb09"
+  },
+  {
+    "file": "taiping-drum-ip-poster.jpg",
+    "width": 960,
+    "height": 542,
+    "bytes": 132400,
+    "sha256": "cbcd517597918dc3f7a9f650e2afcb4a14745b7bf3c179658c1af4a5bcc25d45"
+  },
+  {
+    "file": "plant-healing-ai-ad-poster.jpg",
+    "width": 960,
+    "height": 540,
+    "bytes": 99825,
+    "sha256": "76899a7437d9541242f64646d90674a6f0c6897b090c6936ec7a206ee4e68e83"
+  },
+  {
+    "file": "tiffany-jewelry-concept-poster.jpg",
+    "width": 960,
+    "height": 542,
+    "bytes": 31216,
+    "sha256": "c6f5f0a10c11693178586cda6f4a020567f8a6876c71ef42b758bb6be1255ed0"
+  }
+]

@@ -48,3 +48,33 @@
 
 .hero-intro,.lede,.practice-grid>div>p,.about-body>p,.contact-grid>div>p{line-height:1.7}
 @media(max-width:860px){.contact-copy{max-width:none}}
+
+/* Motion work — native video, Chinese typography and contrast */
+.motion{padding-top:clamp(6.5rem,11vw,12rem);padding-bottom:clamp(6.5rem,10vw,11rem);border-top:1px solid var(--line)}
+.motion-heading{grid-template-columns:1fr minmax(0,1.5fr) minmax(15rem,.78fr);gap:2rem;align-items:start}
+.motion-heading h2{max-width:7.5ch;font-size:clamp(3rem,5.35vw,6.7rem);font-weight:800;letter-spacing:-.068em;line-height:1.1}
+.motion-heading .lede{margin-top:.42rem;line-height:1.72}
+.motion-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(1.5rem,2.7vw,3rem);margin-top:clamp(3.7rem,7vw,7.4rem);align-items:start}
+.motion-card{grid-column:span 5;min-width:0;padding-top:.75rem;border-top:1px solid var(--ink)}
+.motion-card--primary{grid-column:span 7}
+.motion-card--wide{grid-column:3/span 8;margin-top:clamp(1.25rem,4vw,4rem)}
+.motion-card:nth-child(2){margin-top:clamp(3.5rem,8vw,9rem)}
+.motion-media{position:relative;overflow:hidden;background:#151512;border:1px solid rgba(17,17,15,.18);box-shadow:0 16px 35px rgba(17,17,15,.11)}
+.motion-media::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;border:1px solid transparent;transition:border-color .25s var(--ease)}
+.motion-media:focus-within::after,.motion-card:hover .motion-media::after{border-color:var(--lime)}
+.motion-media video{display:block;width:100%;height:auto;max-height:min(72svh,900px);margin:0 auto;background:#111;vertical-align:middle}
+.motion-media video:focus-visible{outline:3px solid var(--lime);outline-offset:-3px}
+.motion-meta{display:grid;grid-template-columns:minmax(0,1fr) minmax(9rem,.72fr);column-gap:1.5rem;row-gap:.75rem;padding-top:1rem}
+.motion-label{grid-column:1/-1;margin:0;color:var(--muted);font:700 .62rem/1.35 var(--mono);letter-spacing:.08em}
+.motion-card:hover .motion-label{color:var(--ink)}
+.motion-meta h3{margin:0;font-size:clamp(1.65rem,2.65vw,3.35rem);font-weight:750;letter-spacing:-.065em;line-height:1.08}
+.motion-copy{align-self:end;max-width:22rem;margin:0;color:var(--muted);font-size:clamp(.9rem,1.1vw,1rem);line-height:1.72}
+@media(max-width:860px){
+  .motion-heading{grid-template-columns:1fr;gap:1.45rem}
+  .motion-heading h2{max-width:8.5ch;font-size:clamp(2.85rem,12vw,5.65rem);line-height:1.1}
+  .motion-grid{grid-template-columns:1fr;gap:3rem;margin-top:3.5rem}
+  .motion-card,.motion-card--primary,.motion-card--wide,.motion-card:nth-child(2){grid-column:auto;margin-top:0}
+  .motion-media video{max-height:68svh}
+  .motion-meta{grid-template-columns:1fr;gap:.7rem;padding-top:.9rem}
+  .motion-copy{max-width:38rem;line-height:1.75}
+}

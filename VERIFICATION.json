@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "entry": "E:\\codex\\测试\\wangzitiao-portfolio\\index.html",
+  "checked_local_references": [
+    "assets/icons/favicon.svg",
+    "site.webmanifest",
+    "styles.css",
+    "script.js",
+    "assets/images/wang-zitao-portrait.webp",
+    "assets/images/naais-cover.webp",
+    "assets/images/taiping-poster.webp",
+    "assets/images/lanzhou-cover.webp",
+    "assets/images/baita-cover.webp",
+    "assets/images/water-cover.webp",
+    "assets/images/tujia-cover.webp",
+    "assets/videos/taiping-drum-ip.mp4",
+    "assets/videos/plant-healing-ai-ad.mp4",
+    "assets/videos/tiffany-jewelry-concept.mp4",
+    "assets/images/naais-cover.webp",
+    "assets/images/naais-packaging.webp",
+    "assets/images/naais-character.webp",
+    "assets/images/naais-composition.webp",
+    "assets/images/naais-poster.webp",
+    "assets/images/naais-board.webp",
+    "assets/images/taiping-cover.webp",
+    "assets/images/taiping-character.webp",
+    "assets/images/taiping-poster.webp",
+    "assets/images/taiping-extension.webp",
+    "assets/images/taiping-cover.webp",
+    "assets/images/lanzhou-foldout.webp",
+    "assets/images/lanzhou-cover.webp",
+    "assets/images/lanzhou-foldout.webp",
+    "assets/images/lanzhou-poster.webp",
+    "assets/images/baita-cover.webp",
+    "assets/images/baita-pillow.webp",
+    "assets/images/baita-cover.webp",
+    "assets/images/baita-keychain.webp",
+    "assets/images/water-cover.webp",
+    "assets/images/water-board.webp",
+    "assets/images/water-render.webp",
+    "assets/images/water-line.webp",
+    "assets/images/tujia-cover.webp",
+    "assets/images/tujia-cover.webp",
+    "assets/images/infographic-cover.webp"
+  ],
+  "missing_local_references": [],
+  "css_braces": {
+    "open": 256,
+    "close": 256
+  },
+  "hashes": {
+    "index.html": "e98c97aa087139ea1114a87638c5b6173d554d050ee164e12f977c816c71a5ac",
+    "styles.css": "9f97d84e2ba4446a6d6fb3526e5640e7431f4d9dfd258a1d2f1d61510e4f58ee",
+    "script.js": "5ee99aec8709f3f862c177fd06882064c1d286a5dc845b3bb5153dda1a6f2e15"
+  },
+  "optimized_asset_bytes": 5281896,
+  "motion_media": {
+    "videos": 3,
+    "total_video_bytes": 61924991,
+    "all_faststart_h264_aac": true,
+    "sources": [
+      "assets/videos/taiping-drum-ip.mp4",
+      "assets/videos/plant-healing-ai-ad.mp4",
+      "assets/videos/tiffany-jewelry-concept.mp4"
+    ],
+    "posters": [
+      "assets/images/taiping-drum-ip-poster.jpg",
+      "assets/images/plant-healing-ai-ad-poster.jpg",
+      "assets/images/tiffany-jewelry-concept-poster.jpg"
+    ]
+  }
+}

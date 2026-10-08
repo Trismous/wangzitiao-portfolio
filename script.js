@@ -57,7 +57,7 @@ const nav = document.querySelector("[data-site-nav]");
 
 function markup(p) {
   const images = p.images.map(([src, alt]) => `<figure><img src="${src}" loading="lazy" decoding="async" alt="${alt}" /></figure>`).join("");
-  return `<section class="detail-hero"><img src="${p.cover}" alt="${p.alt}" /><div><p class="eyebrow">${p.no} / ${p.tag}</p><h2 id="project-title">${p.title}</h2></div></section><section class="detail-intro"><p>${p.intro}</p><div class="meta"><div><span>角色</span><p>${p.role}</p></div><div><span>内容</span><p>${p.scope}</p></div><div><span>工具</span><p>${p.tools}</p></div></div></section><section class="gallery" aria-label="${p.title}项目图片">${images}</section><section class="detail-closing"><p>${p.closing}</p><button data-close type="button">BACK TO WORK ↑</button></section>`;
+  return `<section class="detail-hero"><img src="${p.cover}" alt="${p.alt}" /><div><p class="eyebrow">${p.no} / ${p.tag}</p><h2 id="project-title">${p.title}</h2></div></section><section class="detail-intro"><p>${p.intro}</p><div class="meta"><div><span>角色</span><p>${p.role}</p></div><div><span>内容</span><p>${p.scope}</p></div><div><span>工具</span><p>${p.tools}</p></div></div></section><section class="gallery" aria-label="${p.title}项目图片">${images}</section><section class="detail-closing"><p>${p.closing}</p><button data-close type="button">返回作品 ↑</button></section>`;
 }
 function openProject(key) {
   const p = projects[key];
