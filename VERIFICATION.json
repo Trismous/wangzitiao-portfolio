@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "entry": "E:\\codex\\测试\\wangzitiao-portfolio\\index.html",
+  "entry": "index.html",
   "checked_local_references": [
     "assets/icons/favicon.svg",
     "site.webmanifest",
@@ -13,47 +13,29 @@
     "assets/images/baita-cover.webp",
     "assets/images/water-cover.webp",
     "assets/images/tujia-cover.webp",
+    "ai-comic.html",
+    "assets/images/ai-comic/sumin-yaojie-renjian-ep01-cover.jpg",
+    "assets/images/taiping-drum-ip-poster.jpg",
     "assets/videos/taiping-drum-ip.mp4",
+    "assets/images/plant-healing-ai-ad-poster.jpg",
     "assets/videos/plant-healing-ai-ad.mp4",
-    "assets/videos/tiffany-jewelry-concept.mp4",
-    "assets/images/naais-cover.webp",
-    "assets/images/naais-packaging.webp",
-    "assets/images/naais-character.webp",
-    "assets/images/naais-composition.webp",
-    "assets/images/naais-poster.webp",
-    "assets/images/naais-board.webp",
-    "assets/images/taiping-cover.webp",
-    "assets/images/taiping-character.webp",
-    "assets/images/taiping-poster.webp",
-    "assets/images/taiping-extension.webp",
-    "assets/images/taiping-cover.webp",
-    "assets/images/lanzhou-foldout.webp",
-    "assets/images/lanzhou-cover.webp",
-    "assets/images/lanzhou-foldout.webp",
-    "assets/images/lanzhou-poster.webp",
-    "assets/images/baita-cover.webp",
-    "assets/images/baita-pillow.webp",
-    "assets/images/baita-cover.webp",
-    "assets/images/baita-keychain.webp",
-    "assets/images/water-cover.webp",
-    "assets/images/water-board.webp",
-    "assets/images/water-render.webp",
-    "assets/images/water-line.webp",
-    "assets/images/tujia-cover.webp",
-    "assets/images/tujia-cover.webp",
-    "assets/images/infographic-cover.webp"
+    "assets/images/tiffany-jewelry-concept-poster.jpg",
+    "assets/videos/tiffany-jewelry-concept.mp4"
   ],
   "missing_local_references": [],
   "css_braces": {
-    "open": 256,
-    "close": 256
+    "open": 266,
+    "close": 266
   },
   "hashes": {
-    "index.html": "e98c97aa087139ea1114a87638c5b6173d554d050ee164e12f977c816c71a5ac",
-    "styles.css": "9f97d84e2ba4446a6d6fb3526e5640e7431f4d9dfd258a1d2f1d61510e4f58ee",
-    "script.js": "5ee99aec8709f3f862c177fd06882064c1d286a5dc845b3bb5153dda1a6f2e15"
+    "index.html": "b318bb527a0e42720f0e7503c906e8cec14756c6065af24012ab1670e0163f73",
+    "styles.css": "1504d5d748f8a615af1bd2599c62590e7f1fd5f6adfc2c3fd6424ad48fc8d4b0",
+    "script.js": "98ef7578c536c6b0b022121b082b99af09ca0068ac937999d0ad58a5367109ed",
+    "ai-comic.html": "2b4f4f7359170901b504c22e537af2fc8b2acbb6b5c21d9a244da17f0433676c",
+    "ai-comic.css": "ae95be99ab4d83da716ce2f358dbe6421753a9f0302c73c91f3c41ca8a684ed5",
+    "assets/ai-comic-manifest.json": "220f4eac40e5b9d2360b1ab782ea50c98f8fed26e15d553c82e95e65139e3345"
   },
-  "optimized_asset_bytes": 5281896,
+  "optimized_asset_bytes": 6771500,
   "motion_media": {
     "videos": 3,
     "total_video_bytes": 61924991,
@@ -68,5 +50,115 @@
       "assets/images/plant-healing-ai-ad-poster.jpg",
       "assets/images/tiffany-jewelry-concept-poster.jpg"
     ]
+  },
+  "ai_comic": {
+    "page": "ai-comic.html",
+    "page_reference_check": {
+      "status": "PASS",
+      "checked_local_references": [
+        "assets/icons/favicon.svg",
+        "ai-comic.css",
+        "index.html",
+        "assets/images/ai-comic/sumin-yaojie-renjian-ep01-cover.jpg",
+        "assets/images/ai-comic/sumin-yaojie-renjian-ep01-cover.jpg",
+        "assets/videos/ai-comic/sumin-yaojie-renjian-ep01.mp4",
+        "assets/images/ai-comic/sumin-yaojie-renjian-ep02-cover.jpg",
+        "assets/videos/ai-comic/sumin-yaojie-renjian-ep02.mp4",
+        "assets/images/ai-comic/sumi-lead-character-sheet.webp",
+        "assets/images/ai-comic/sumi-master-character-sheet.webp",
+        "assets/images/ai-comic/sumi-monster-character-sheet.webp",
+        "assets/images/ai-comic/sumi-young-lead-character-sheet.webp",
+        "assets/images/ai-comic/sumi-father-character-sheet.webp",
+        "assets/images/ai-comic/sumi-episode-01-storyboard.webp",
+        "assets/images/ai-comic/sumi-episode-02-storyboard.webp",
+        "index.html"
+      ],
+      "missing_local_references": []
+    },
+    "episodes": 2,
+    "video_sources": [
+      {
+        "file": "assets/videos/ai-comic/sumin-yaojie-renjian-ep01.mp4",
+        "bytes": 52453541,
+        "sha256": "664a67485a5647ec23aa8b1eb4287e06b52746e9db595241cb68d9cf6743aae1",
+        "container_atoms": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 139626
+          },
+          {
+            "type": "free",
+            "offset": 139658,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 139666,
+            "bytes": 52313875
+          }
+        ],
+        "faststart_moov_offset": 32,
+        "faststart_check": "PASS"
+      },
+      {
+        "file": "assets/videos/ai-comic/sumin-yaojie-renjian-ep02.mp4",
+        "bytes": 48285454,
+        "sha256": "30ac4c6e0e6d9b87bfc0bb40461be5366dc9abaf18bd9e85a7eba09a7b06a649",
+        "container_atoms": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 138550
+          },
+          {
+            "type": "free",
+            "offset": 138582,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 138590,
+            "bytes": 48146864
+          }
+        ],
+        "faststart_moov_offset": 32,
+        "faststart_check": "PASS"
+      }
+    ],
+    "character_sheets": 5,
+    "storyboards": 2,
+    "total_image_bytes": 1489604,
+    "total_video_bytes": 100738995,
+    "browser_render_check": {
+      "status": "PASS",
+      "target": "http://127.0.0.1:4173/ai-comic.html",
+      "observed": "desktop hero + two native video controls + all sections in accessibility tree"
+    },
+    "browser_runtime_check": {
+      "status": "PASS",
+      "desktop_viewport": "1280x720",
+      "mobile_viewport": "390x844",
+      "video_ready_states": [
+        4,
+        4
+      ],
+      "durations_seconds": [
+        128.29,
+        127.315
+      ],
+      "horizontal_overflow": false,
+      "console_errors_or_warnings": 0
+    }
   }
 }

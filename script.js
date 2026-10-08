@@ -51,7 +51,8 @@ const projects = {
 
 const dialog = document.querySelector("[data-dialog]");
 const detail = document.querySelector("[data-detail]");
-const cards = [...document.querySelectorAll("[data-project]")];
+const projectCards = [...document.querySelectorAll("[data-project]")];
+const filterCards = [...document.querySelectorAll("[data-category]")];
 const filters = [...document.querySelectorAll("[data-filter]")];
 const nav = document.querySelector("[data-site-nav]");
 
@@ -75,7 +76,7 @@ function closeProject() {
   document.body.classList.remove("modal-open");
   history.replaceState(null, "", "#work");
 }
-cards.forEach(card => card.addEventListener("click", () => openProject(card.dataset.project)));
+projectCards.forEach(card => card.addEventListener("click", () => openProject(card.dataset.project)));
 dialog?.addEventListener("click", event => { if (event.target.closest("[data-close]")) closeProject(); });
 dialog?.addEventListener("cancel", event => { event.preventDefault(); closeProject(); });
 dialog?.addEventListener("close", () => document.body.classList.remove("modal-open"));
@@ -83,7 +84,7 @@ dialog?.addEventListener("close", () => document.body.classList.remove("modal-op
 filters.forEach(button => button.addEventListener("click", () => {
   const active = button.dataset.filter;
   filters.forEach(item => item.classList.toggle("is-active", item === button));
-  cards.forEach(card => { card.hidden = active !== "all" && !card.dataset.category.split(" ").includes(active); });
+  filterCards.forEach(card => { card.hidden = active !== "all" && !card.dataset.category.split(" ").includes(active); });
 }));
 
 function updateNav() { nav?.classList.toggle("light", window.scrollY > Math.min(innerHeight * .75, 720)); }

@@ -78,3 +78,12 @@
   .motion-meta{grid-template-columns:1fr;gap:.7rem;padding-top:.9rem}
   .motion-copy{max-width:38rem;line-height:1.75}
 }
+
+/* AI comic project entry */
+.work-card.drama-card{grid-column:2/span 10;margin-top:clamp(3rem,8vw,9rem)}
+.work-card.drama-card .media{aspect-ratio:2.327/1;background:#141510}
+.work-card.drama-card .media::after{content:"AI COMIC · ONGOING";position:absolute;z-index:1;right:.8rem;bottom:.75rem;padding:.42rem .52rem;background:var(--lime);color:var(--ink);font:800 .57rem/1 var(--mono);letter-spacing:.08em}
+.work-card.drama-card .media{position:relative}
+.work-card.drama-card .media img{object-position:center}
+.work-card.drama-card>strong{font-size:clamp(2rem,3.75vw,4.65rem)}
+@media(max-width:860px){.work-card.drama-card{grid-column:span 12;margin-top:0}.work-card.drama-card .media{aspect-ratio:1.25}.work-card.drama-card .media img{object-position:58% center}}
